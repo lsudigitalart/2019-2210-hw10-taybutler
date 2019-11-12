@@ -4,7 +4,9 @@ function setup(){
   createCanvas(1000, 700);
   background(255, 33, 103);
   stroke(255, 33, 103);
+}
 
+function mousePressed(){
   for(var i = 0; i < 50; i++) {
     var x = 0
     var y = random(height);
